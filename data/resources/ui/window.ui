@@ -7,8 +7,8 @@
       <object class="PaginatorWidget" id="paginator">
         <child>
           <object class="ImagePageWidget" id="welcome_page">
-            <property name="resource-uri">/org/gnome/Tour/welcome.svg</property>
-            <property name="head" translatable="yes">Let's Begin</property>
+            <property name="resource-uri">/org/gnome/Tour/sinking.svg</property>
+            <property name="head" translatable="yes">Ahoy, this is openSUSE</property>
           </object>
         </child>
         <child>
