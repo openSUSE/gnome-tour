@@ -43,3 +43,33 @@
   background-position: center 30%;
   animation: left-and-right 2s ease-in-out infinite alternate;
 }
+
+.readme {
+  background-color: var(--accent-yellow);
+  color: white;
+}
+
+.doc {
+  background-color: var(--accent-blue);
+  color: white;
+}
+
+.software {
+  background-color: var(--accent-slate);
+  color: white;
+}
+
+.contribute {
+  background-color: var(--accent-green);
+  color: white;
+}
+
+.build {
+  background-color: var(--accent-teal);
+  color: white;
+}
+
+.donate {
+  background-color: var(--accent-purple);
+  color: white;
+}

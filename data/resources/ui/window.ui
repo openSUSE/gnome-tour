@@ -46,16 +46,191 @@
             <property name="body" translatable="yes">To move between workspaces, swipe three fingers horizontally.</property>
           </object>
         </child>
+        <!-- custom opensuse Layout with useful links -->
         <child>
-          <object class="ImagePageWidget">
-            <property name="resource-uri">/org/gnome/Tour/ready-to-go.svg</property>
-            <property name="head" translatable="yes">That's It!</property>
-            <property name="body" translatable="yes">To get more advice and tips, see the Help app.</property>
-            <style>
-              <class name="last-page" />
-            </style>
+          <object class="AdwClamp">
+            <property name="maximum-size">900</property>
+            <child>
+              <object class="GtkBox" id="opensuse">
+                <property name="orientation">vertical</property>
+                <property name="spacing">12</property>
+                <property name="valign">center</property>
+                <property name="halign">center</property>
+                <property name="vexpand">true</property>
+                <property name="margin-bottom">48</property>
+                <property name="margin-top">12</property>
+                <property name="margin-start">12</property>
+                <property name="margin-end">12</property>
+                <!-- Header text -->
+                <child>
+                  <object class="GtkLabel" id="head_label">
+                    <property name="label" translatable="yes">Ahoy, this is openSUSE</property>
+                    <property name="valign">center</property>
+                    <property name="justify">center</property>
+                    <property name="margin-top">36</property>
+                    <style>
+                      <class name="title-1" />
+                    </style>
+                  </object>
+                </child>
+                <!-- Buttons -->
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">horizontal</property>
+                    <property name="spacing">12</property>
+                    <property name="valign">center</property>
+                    <property name="halign">center</property>
+                    <property name="vexpand">true</property>
+                    <property name="margin-bottom">48</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <child>
+                      <!-- basic links -->
+                      <object class="GtkBox" id="basics">
+                        <property name="orientation">vertical</property>
+                        <property name="spacing">12</property>
+                        <property name="valign">center</property>
+                        <property name="halign">center</property>
+                        <property name="vexpand">true</property>
+                        <property name="margin-bottom">48</property>
+                        <property name="margin-top">12</property>
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">Basics</property>
+                            <property name="margin-top">36</property>
+                            <style>
+                              <class name="title-1" />
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="readme"/></style>
+                            <property name="uri">https://doc.opensuse.org/</property>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">emblem-documents-symbolic</property>
+                                <property name="label" translatable="yes">Read me</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="doc"/></style>
+                            <property name="uri">https://doc.opensuse.org/</property>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">accessories-dictionary-symbolic</property>
+                                <property name="label" translatable="yes">Documentation</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <property name="uri">https://software.opensuse.org/explore</property>
+                            <style><class name="software"/></style>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">system-software-install-symbolic</property>
+                                <property name="label" translatable="yes">Get Software</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                    <object class="GtkImage">
+                      <property name="resource">/org/gnome/Tour/sinking.svg</property>
+                      <property name="width-request">300</property>
+                    </object>
+                    </child>
+                    <child>
+                      <!-- support links -->
+                      <object class="GtkBox" id="support">
+                        <property name="orientation">vertical</property>
+                        <property name="spacing">12</property>
+                        <property name="valign">center</property>
+                        <property name="halign">center</property>
+                        <property name="vexpand">true</property>
+                        <property name="margin-bottom">48</property>
+                        <property name="margin-top">12</property>
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">Support</property>
+                            <property name="margin-top">36</property>
+                            <style>
+                              <class name="title-1" />
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="contribute"/></style>
+                            <property name="uri">https://en.opensuse.org/Portal:How_to_participate</property>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">emoji-body-symbolic</property>
+                                <property name="label" translatable="yes">Contribute</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="build"/></style>
+                            <property name="uri">https://build.opensuse.org/</property>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">preferences-system-symbolic</property>
+                                <property name="label" translatable="yes">Build openSUSE</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="donate"/></style>
+                            <property name="uri">https://geekos.org/sponsorship/</property>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">emote-love-symbolic</property>
+                                <property name="label" translatable="yes">Help by Donation</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <!-- Body text -->
+                <child>
+                  <object class="GtkLabel">
+                    <property name="use-markup">true</property>
+                    <property name="label">If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our &lt;a href="https://en.opensuse.org/openSUSE:Social_media_contacts"&gt;social media&lt;/a&gt;.</property>
+                    <property name="lines">2</property>
+                    <property name="wrap">true</property>
+                    <property name="valign">center</property>
+                    <property name="justify">center</property>
+                    <property name="margin-top">12</property>
+                    <style>
+                      <class name="body" />
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
           </object>
         </child>
+
       </object>
     </property>
   </template>
