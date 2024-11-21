@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour\n"
-"POT-Creation-Date: 2024-02-18 19:04+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-04-29 02:36+0300\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@gnome.org>\n"
 "Language-Team: Greek <gnome-el-list@gnome.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Ξενάγηση"
 
@@ -39,8 +39,13 @@ msgstr "Ξενάγηση και Υποδοχή του GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Ξενάγηση και υποδοχή για το GNOME."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:45
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "Το έργο GNOME"
 
@@ -56,9 +61,9 @@ msgstr "Επόμενο"
 msgid "Start"
 msgstr "Έναρξη"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Ας αρχίσουμε"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -118,19 +123,61 @@ msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr ""
 "Για να μετακινηθείτε μεταξύ χώρων εργασίας, σύρετε τρία δάχτυλα οριζόντια."
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "Αυτό ήταν!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "Για περισσότερες συμβουλές, ανατρέξτε στην εφαρμογή Βοήθεια."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Μάθετε για τα βασικά χαρακτηριστικά στο {name} {version}."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Ας αρχίσουμε"
+
+#~ msgid "That's It!"
+#~ msgstr "Αυτό ήταν!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "Για περισσότερες συμβουλές, ανατρέξτε στην εφαρμογή Βοήθεια."
 
 #~ msgid "Start the Tour"
 #~ msgstr "Έναρξη της ξενάγησης"

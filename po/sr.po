@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-03-18 21:09+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-03-23 16:56+0100\n"
 "Last-Translator: Leco <gerovid@gmail.com>\n"
 "Language-Team: Serbian <gnome-sr@googlegroups.com>>\n"
@@ -42,8 +42,13 @@ msgstr "Гномова добродошлица и водич"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Водич за Гном."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "Гномов пројекат"
 
@@ -59,9 +64,9 @@ msgstr "Следеће"
 msgid "Start"
 msgstr "Покрени"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Хајде да кренемо"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -73,8 +78,8 @@ msgid ""
 "The overview shows all your apps and windows. Press the Super (Windows) key "
 "to open it."
 msgstr ""
-"Овај преглед приказује све ваше апликације и прозоре. Притисните Супер (Виндоус) "
-"тастер како би му приступили."
+"Овај преглед приказује све ваше апликације и прозоре. Притисните Супер "
+"(Виндоус) тастер како би му приступили."
 
 #: data/resources/ui/window.ui:24
 msgid "Powerful Search"
@@ -98,8 +103,8 @@ msgid ""
 "Organize your windows by moving them into different workspaces. This can be "
 "done by dragging them in the overview."
 msgstr ""
-"Организујете прозоре премештајући их на различите радне просторе. Ово "
-"можете урадити тако што их превучете у прегледу."
+"Организујете прозоре премештајући их на различите радне просторе. Ово можете "
+"урадити тако што их превучете у прегледу."
 
 #: data/resources/ui/window.ui:38
 msgid "Swipe Up and Down"
@@ -117,22 +122,64 @@ msgstr "Превуците лево и десно"
 
 #: data/resources/ui/window.ui:46
 msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr "Да пређете на следеће радни простор превуците три прста хоризонтално."
+
+#: data/resources/ui/window.ui:102
+msgid "Basics"
 msgstr ""
-"Да пређете на следеће радни простор превуците три прста хоризонтално."
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "То је то!"
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "За више савета и трикова, погледајте програм „Помоћ“."
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+#, fuzzy
+msgid "Get Software"
+msgstr "Програми"
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Сазнајте више о главним могућностима окружења {name} {version}."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Хајде да кренемо"
+
+#~ msgid "That's It!"
+#~ msgstr "То је то!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "За више савета и трикова, погледајте програм „Помоћ“."
 
 #~ msgid "Start the Tour"
 #~ msgstr "Покрени обилазак"
@@ -258,9 +305,6 @@ msgstr "Сазнајте више о главним могућностима о�
 
 #~ msgid "System Menu"
 #~ msgstr "Системски изборник"
-
-#~ msgid "Software"
-#~ msgstr "Програми"
 
 #~ msgid ""
 #~ "The Software app makes it easy to find and install all the apps you need."

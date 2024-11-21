@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2023-09-17 06:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2023-11-29 21:09+0530\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam <l10n@lists.smc.org.in>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.1\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "പര്യടനം"
 
@@ -41,7 +41,13 @@ msgstr "ഗ്നോം പര്യടനവും അഭിവാദികന�
 msgid "A guided tour and greeter for GNOME."
 msgstr "ഗ്നോമിനായുള്ള ഒരു മാര്‍ഗ്ഗദര്‍ശി പര്യടനവും അഭിവാദ്യവും."
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:42
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "ഗ്നോം  പദ്ധതി"
 
@@ -57,62 +63,137 @@ msgstr "അടുത്തത്"
 msgid "Start"
 msgstr "തുടങ്ങുക"
 
-#: data/resources/ui/window.ui:11
-msgid "Start the Tour"
-msgstr "പര്യടനം തുടങ്ങുക"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "ഒരു അവലോകനം നേടുക"
 
+#. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
-msgid "Press the Super key to see open windows and apps."
-msgstr "തുറന്ന വിൻഡോകളും ആപ്പുകളും കാണാൻ സൂപ്പർ കീ അമർത്തുക."
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
 
 #: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "തിരയാൻ കേവലം ടൈപ്പ് ചെയ്യുക"
+msgid "Powerful Search"
+msgstr ""
 
 #: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "തിരയാൻ അവലോകനത്തിൽ ടൈപ്പ് ചെയ്യുക. ആപ്പുകൾ സമാരംഭിക്കുക, കാര്യങ്ങൾ കണ്ടെത്തുക."
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
+msgstr ""
 
 #: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "പ്രവർത്തനത്തലങ്ങൾക്കൊപ്പം മുകളിൽ തുടരുക"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr "പ്രവര്‍ത്തനതല ദൃശ്യം ഉപയോഗിച്ച് വിൻഡോകൾ എളുപ്പത്തിൽ ക്രമീകരിക്കുക."
 
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
+
 #: data/resources/ui/window.ui:38
-msgid "Up/Down for the Overview"
-msgstr "അവലോകനത്തിനായി മുകളിലേക്ക്/താഴേക്ക്"
+msgid "Swipe Up and Down"
+msgstr ""
 
 #: data/resources/ui/window.ui:39
-#, fuzzy
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "ഒരു ടച്ച്പാഡിൽ, മൂന്ന് വിരലുകളുള്ള ലംബ സ്വൈപ്പുകൾ ഉപയോഗിക്കുക. ശ്രമിക്കു!"
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
+msgstr ""
 
 #: data/resources/ui/window.ui:45
-msgid "Left/Right for Workspaces"
-msgstr "പ്രവർത്തനതലത്തിനു ഇടത്/വലത്"
+msgid "Swipe Left and Right"
+msgstr ""
 
 #: data/resources/ui/window.ui:46
-#, fuzzy
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "ഒരു ടച്ച്പാഡിൽ, മൂന്ന് വിരലുകളുള്ള തിരശ്ചീന സ്വൈപ്പുകൾ ഉപയോഗിക്കുക. ശ്രമിക്കുക!"
+msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr ""
 
-#: data/resources/ui/window.ui:52
-msgid "That's it. Have a nice day!"
-msgstr "അത്രതന്നെ. ഒരു നല്ല ദിനം ആശംസിക്കുന്നു!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "കൂടുതൽ ഉപദേശങ്ങളും നുറുങ്ങുകളും ലഭിക്കുന്നതിന്, ഹെല്പ് ആപ്പ് സന്ദർശിക്കുക."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "{name} {version}-ലെ പ്രധാന സവിശേഷതകളെ കുറിച്ച് അറിയുക."
+
+#~ msgid "Start the Tour"
+#~ msgstr "പര്യടനം തുടങ്ങുക"
+
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "തുറന്ന വിൻഡോകളും ആപ്പുകളും കാണാൻ സൂപ്പർ കീ അമർത്തുക."
+
+#~ msgid "Just Type to Search"
+#~ msgstr "തിരയാൻ കേവലം ടൈപ്പ് ചെയ്യുക"
+
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr "തിരയാൻ അവലോകനത്തിൽ ടൈപ്പ് ചെയ്യുക. ആപ്പുകൾ സമാരംഭിക്കുക, കാര്യങ്ങൾ കണ്ടെത്തുക."
+
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "പ്രവർത്തനത്തലങ്ങൾക്കൊപ്പം മുകളിൽ തുടരുക"
+
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "അവലോകനത്തിനായി മുകളിലേക്ക്/താഴേക്ക്"
+
+#, fuzzy
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr "ഒരു ടച്ച്പാഡിൽ, മൂന്ന് വിരലുകളുള്ള ലംബ സ്വൈപ്പുകൾ ഉപയോഗിക്കുക. ശ്രമിക്കു!"
+
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "പ്രവർത്തനതലത്തിനു ഇടത്/വലത്"
+
+#, fuzzy
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr "ഒരു ടച്ച്പാഡിൽ, മൂന്ന് വിരലുകളുള്ള തിരശ്ചീന സ്വൈപ്പുകൾ ഉപയോഗിക്കുക. ശ്രമിക്കുക!"
+
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "അത്രതന്നെ. ഒരു നല്ല ദിനം ആശംസിക്കുന്നു!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "കൂടുതൽ ഉപദേശങ്ങളും നുറുങ്ങുകളും ലഭിക്കുന്നതിന്, ഹെല്പ് ആപ്പ് സന്ദർശിക്കുക."

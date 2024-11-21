@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-02-19 14:34+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-02-20 09:09-0500\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -40,8 +40,13 @@ msgstr "GNOME 导览和欢迎界面"
 msgid "A guided tour and greeter for GNOME."
 msgstr "GNOME 的导览和欢迎界面程序。"
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:45
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "GNOME 项目"
 
@@ -57,9 +62,9 @@ msgstr "下一页"
 msgid "Start"
 msgstr "开始"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "让我们开始吧"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -112,19 +117,61 @@ msgstr "左右滑动"
 msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr "要在工作区之间移动，请用三根手指水平滑动。"
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "就是这些！"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "如需更多建议和提示，请参考“帮助”程序。"
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "了解 {name} {version} 中的关键功能。"
+
+#~ msgid "Let's Begin"
+#~ msgstr "让我们开始吧"
+
+#~ msgid "That's It!"
+#~ msgstr "就是这些！"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "如需更多建议和提示，请参考“帮助”程序。"
 
 #~ msgid "Main Window"
 #~ msgstr "主窗口"

@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2021-10-08 15:16+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2022-01-30 21:00+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:20
+#: src/main.rs:27
 msgid "Tour"
 msgstr "ツアー"
 
@@ -41,88 +41,169 @@ msgstr "GNOME のツアー/案内"
 msgid "A guided tour and greeter for GNOME."
 msgstr "GNOME のガイドツアーと案内。"
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:15
-msgid "Main Window"
-msgstr "メインウィンドウ"
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:38
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "The GNOME Project"
 
-#: src/widgets/pages/welcome.rs:159
-msgid "Start the Tour"
-msgstr "ツアーを始める"
-
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
-msgid "Learn about the key features in {name} {version}."
-msgstr "{name} {version} の主な機能について学びましょう。"
-
-#: src/widgets/paginator.rs:33
-msgid "Start"
-msgstr "始める"
-
-#: src/widgets/paginator.rs:35
-msgid "Next"
-msgstr "次へ"
-
-#: src/widgets/paginator.rs:36 src/widgets/paginator.rs:37
-msgid "_Close"
-msgstr "閉じる(_C)"
-
-#: src/widgets/paginator.rs:38
+#: data/resources/ui/paginator.ui:25
 msgid "Previous"
 msgstr "前へ"
 
-#: src/widgets/window.rs:52
+#: data/resources/ui/paginator.ui:38
+msgid "Next"
+msgstr "次へ"
+
+#: data/resources/ui/paginator.ui:51
+msgid "Start"
+msgstr "始める"
+
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "全体を見渡す"
 
-#: src/widgets/window.rs:53
-msgid "Press the Super key to see open windows and apps."
-msgstr "Super キーを押すと、開いているウィンドウ/アプリが表示されます。"
-
-#: src/widgets/window.rs:62
-msgid "Just Type to Search"
-msgstr "入力して検索する"
-
-#: src/widgets/window.rs:63
-msgid "Type in the overview to search. Launch apps, find things."
+#. Translators: 'Windows' is referring to the operating system and should not be translated
+#: data/resources/ui/window.ui:18
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
 msgstr ""
-"オーバービュー画面でキー入力すると検索できます。アプリを起動したり、"
-"ファイルや設定項目を見つけることができます。"
 
-#: src/widgets/window.rs:72
-msgid "Keep on Top with Workspaces"
-msgstr "ワークスペースを活用する"
+#: data/resources/ui/window.ui:24
+msgid "Powerful Search"
+msgstr ""
 
-#: src/widgets/window.rs:73
-msgid "Easily organize windows with the workspaces view."
+#: data/resources/ui/window.ui:25
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
+msgstr ""
+
+#: data/resources/ui/window.ui:31
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr "ワークスペースビューでウィンドウを簡単に整理できます。"
 
-#: src/widgets/window.rs:82
-msgid "Up/Down for the Overview"
-msgstr "縦方向ジェスチャーでオーバービュー画面を操作する"
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
 
-#: src/widgets/window.rs:83
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "3 本の指でタッチパッドを上下にスワイプしてみてください!"
+#: data/resources/ui/window.ui:38
+msgid "Swipe Up and Down"
+msgstr ""
 
-#: src/widgets/window.rs:92
-msgid "Left/Right for Workspaces"
-msgstr "横方向ジェスチャーでワークスペースを操作する"
+#: data/resources/ui/window.ui:39
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
+msgstr ""
 
-#: src/widgets/window.rs:93
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "3 本の指でタッチパッドを左右にスワイプしてみてください!"
+#: data/resources/ui/window.ui:45
+msgid "Swipe Left and Right"
+msgstr ""
 
-#: src/widgets/window.rs:103
-msgid "That's it. Have a nice day!"
-msgstr "以上です。良い一日を!"
+#: data/resources/ui/window.ui:46
+msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr ""
 
-#: src/widgets/window.rs:104
-msgid "To get more advice and tips, see the Help app."
-msgstr "より詳しいアドバイスやヒントはヘルプアプリを参照してください。"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
+
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+#, fuzzy
+msgid "Get Software"
+msgstr "ソフトウェア"
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+
+#. Translators: The following string is formatted as "Learn about new and essential
+#. features in GNOME 3.36" for example
+#: src/widgets/window.rs:69
+msgid "Learn about the key features in {name} {version}."
+msgstr "{name} {version} の主な機能について学びましょう。"
+
+#~ msgid "Main Window"
+#~ msgstr "メインウィンドウ"
+
+#~ msgid "Start the Tour"
+#~ msgstr "ツアーを始める"
+
+#~ msgid "_Close"
+#~ msgstr "閉じる(_C)"
+
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "Super キーを押すと、開いているウィンドウ/アプリが表示されます。"
+
+#~ msgid "Just Type to Search"
+#~ msgstr "入力して検索する"
+
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr ""
+#~ "オーバービュー画面でキー入力すると検索できます。アプリを起動したり、ファイ"
+#~ "ルや設定項目を見つけることができます。"
+
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "ワークスペースを活用する"
+
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "縦方向ジェスチャーでオーバービュー画面を操作する"
+
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr "3 本の指でタッチパッドを上下にスワイプしてみてください!"
+
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "横方向ジェスチャーでワークスペースを操作する"
+
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr "3 本の指でタッチパッドを左右にスワイプしてみてください!"
+
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "以上です。良い一日を!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "より詳しいアドバイスやヒントはヘルプアプリを参照してください。"
 
 #~ msgid "Welcome to {} {}"
 #~ msgstr "{} {} へようこそ"
@@ -189,9 +270,6 @@ msgstr "より詳しいアドバイスやヒントはヘルプアプリを参照
 
 #~ msgid "System Menu"
 #~ msgstr "システムメニュー"
-
-#~ msgid "Software"
-#~ msgstr "ソフトウェア"
 
 #~ msgid "Tour Completed"
 #~ msgstr "ツアー終了"

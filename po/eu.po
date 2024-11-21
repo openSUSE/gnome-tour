@@ -4,9 +4,10 @@
 # Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2020, 2021, 2022, 2024.
 #
 msgid ""
-msgstr "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-02-11 13:45+0000\n"
+msgstr ""
+"Project-Id-Version: gnome-tour master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-02-14 10:00+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
@@ -16,7 +17,7 @@ msgstr "Project-Id-Version: gnome-tour master\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Bisita"
 
@@ -36,8 +37,13 @@ msgstr "GNOME Bisita eta Ongietorria"
 msgid "A guided tour and greeter for GNOME."
 msgstr "GNOMEren bisita gidatua eta ongietorria"
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:45
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "GNOME proiektua"
 
@@ -53,9 +59,9 @@ msgstr "Hurrengoa"
 msgid "Start"
 msgstr "Hasiera"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Has gaitezen"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -66,7 +72,9 @@ msgstr "Ikuspegi orokorra"
 msgid ""
 "The overview shows all your apps and windows. Press the Super (Windows) key "
 "to open it."
-msgstr "Ikuspegi orokorrean zure aplikazio eta leiho guztiak ikusiko dituzu. Sakatu Super (Windows) tekla ikuspegi orokorra irekitzeko."
+msgstr ""
+"Ikuspegi orokorrean zure aplikazio eta leiho guztiak ikusiko dituzu. Sakatu "
+"Super (Windows) tekla ikuspegi orokorra irekitzeko."
 
 #: data/resources/ui/window.ui:24
 msgid "Powerful Search"
@@ -76,7 +84,10 @@ msgstr "Bilaketa boteretsua"
 msgid ""
 "To search, just start typing in the overview. You can use search to launch "
 "apps, find files, perform calculations, and more."
-msgstr "Bilaketak egiteko, hasi idazten zuzenean ikuspegi orokorrean. Aplikazioak abiarazteko, fitxategiak bilatzeko, kalkuluak egiteko eta beste hainbat zereginetarako erabili dezakezu bilaketa."
+msgstr ""
+"Bilaketak egiteko, hasi idazten zuzenean ikuspegi orokorrean. Aplikazioak "
+"abiarazteko, fitxategiak bilatzeko, kalkuluak egiteko eta beste hainbat "
+"zereginetarako erabili dezakezu bilaketa."
 
 #: data/resources/ui/window.ui:31
 msgid "Stay Organized With Workspaces"
@@ -86,7 +97,9 @@ msgstr "Eduki mahaigaina aratz laneko areen bidez"
 msgid ""
 "Organize your windows by moving them into different workspaces. This can be "
 "done by dragging them in the overview."
-msgstr "Antolatu zure leihoak laneko areen bidez. Horretarako, arrastatu leihoak ikuspegi orokorraren barruan."
+msgstr ""
+"Antolatu zure leihoak laneko areen bidez. Horretarako, arrastatu leihoak "
+"ikuspegi orokorraren barruan."
 
 #: data/resources/ui/window.ui:38
 msgid "Swipe Up and Down"
@@ -95,7 +108,8 @@ msgstr "Mugitu hatza gora eta behera"
 #: data/resources/ui/window.ui:39
 msgid ""
 "To quickly open the overview with a touchpad, swipe up with three fingers."
-msgstr "Ikuspegi orokorra ukipen-panel batean irekitzeko, mugitu hiru hatz gorantz."
+msgstr ""
+"Ikuspegi orokorra ukipen-panel batean irekitzeko, mugitu hiru hatz gorantz."
 
 #: data/resources/ui/window.ui:45
 msgid "Swipe Left and Right"
@@ -105,19 +119,62 @@ msgstr "Mugitu hatza ezkerrera eta eskuinera"
 msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr "Laneko areen artean mugitzeko, mugitu hiru hatz horizontalean."
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "Hori da dena."
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "Aholku eta argibide gehiago eskuratzeko, begiratu laguntza."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+#, fuzzy
+msgid "Get Software"
+msgstr "Softwarea"
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Ezagutu {name} {version} bertsioaren eginbide nagusiak."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Has gaitezen"
+
+#~ msgid "That's It!"
+#~ msgstr "Hori da dena."
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "Aholku eta argibide gehiago eskuratzeko, begiratu laguntza."
 
 #~ msgid "Main Window"
 #~ msgstr "Leiho nagusia"
@@ -246,9 +303,6 @@ msgstr "Ezagutu {name} {version} bertsioaren eginbide nagusiak."
 
 #~ msgid "System Menu"
 #~ msgstr "Sistemaren menua"
-
-#~ msgid "Software"
-#~ msgstr "Softwarea"
 
 #~ msgid ""
 #~ "The Software app makes it easy to find and install all the apps you need."

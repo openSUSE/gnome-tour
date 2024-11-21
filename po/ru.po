@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-02-09 16:52+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2022-07-30 22:53+0300\n"
 "Last-Translator: Aleksandr Melman <Alexmelman88@gmail.com>\n"
 "Language-Team: Russian <Alexmelman88@gmail.com>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "X-Generator: Poedit 3.1\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Экскурсия"
 
@@ -46,8 +46,13 @@ msgstr "Экскурсия и Приветствие GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Управляемая экскурсия и приветствие для GNOME."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:45
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "The GNOME Project"
 
@@ -63,9 +68,9 @@ msgstr "Далее"
 msgid "Start"
 msgstr "Начать"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Давайте начнем"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -77,8 +82,8 @@ msgid ""
 "The overview shows all your apps and windows. Press the Super (Windows) key "
 "to open it."
 msgstr ""
-"В Обзоре отображаются все ваши приложения и окна. Нажмите клавишу Super (Windows) "
-"чтобы открыть его."
+"В Обзоре отображаются все ваши приложения и окна. Нажмите клавишу Super "
+"(Windows) чтобы открыть его."
 
 #: data/resources/ui/window.ui:24
 msgid "Powerful Search"
@@ -89,8 +94,8 @@ msgid ""
 "To search, just start typing in the overview. You can use search to launch "
 "apps, find files, perform calculations, and more."
 msgstr ""
-"Для поиска просто начните вводить текст в Обзоре. С помощью поиска можно запускать "
-"приложения, находить файлы, выполнять вычисления и многое другое."
+"Для поиска просто начните вводить текст в Обзоре. С помощью поиска можно "
+"запускать приложения, находить файлы, выполнять вычисления и многое другое."
 
 #: data/resources/ui/window.ui:31
 msgid "Stay Organized With Workspaces"
@@ -112,7 +117,8 @@ msgstr "Проведите вверх и вниз"
 msgid ""
 "To quickly open the overview with a touchpad, swipe up with three fingers."
 msgstr ""
-"Чтобы быстро открыть Обзор с помощью сенсорной панели, проведите тремя пальцами вверх."
+"Чтобы быстро открыть Обзор с помощью сенсорной панели, проведите тремя "
+"пальцами вверх."
 
 #: data/resources/ui/window.ui:45
 msgid "Swipe Left and Right"
@@ -120,23 +126,67 @@ msgstr "Проведите влево и вправо"
 
 #: data/resources/ui/window.ui:46
 msgid "To move between workspaces, swipe three fingers horizontally."
-msgstr "Чтобы перемещаться между Рабочими столами, проведите тремя пальцами по горизонтали."
-
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "Вот и всё!"
-
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
 msgstr ""
-"Чтобы получить дополнительные советы и рекомендации, обратитесь к приложению "
-"Справка."
+"Чтобы перемещаться между Рабочими столами, проведите тремя пальцами по "
+"горизонтали."
+
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
+
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Узнайте о ключевых функциях в {name} {version}."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Давайте начнем"
+
+#~ msgid "That's It!"
+#~ msgstr "Вот и всё!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr ""
+#~ "Чтобы получить дополнительные советы и рекомендации, обратитесь к "
+#~ "приложению Справка."
 
 #~ msgid "Start the Tour"
 #~ msgstr "Начать Экскурсию"

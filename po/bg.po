@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-08-21 22:52+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-08-31 09:40+0200\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
@@ -41,8 +41,13 @@ msgstr "Приветствие и обиколка в GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Приветствие и обиколка като с екскурзовод в GNOME."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "Проектът GNOME"
 
@@ -58,9 +63,9 @@ msgstr "Нататък"
 msgid "Start"
 msgstr "Начало"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Нека да започнем"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -121,19 +126,61 @@ msgstr ""
 "За да се движите между работните пространства, плъзнете три пръста "
 "хоризонтално."
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "Това е!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "За още съвети и напътствия вижте помощта."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Научете за ключовите нововъведения в {name} {version}."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Нека да започнем"
+
+#~ msgid "That's It!"
+#~ msgstr "Това е!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "За още съвети и напътствия вижте помощта."
 
 #~ msgid "Start the Tour"
 #~ msgstr "Начало на обиколката"

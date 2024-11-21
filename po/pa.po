@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2023-05-05 14:05+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2023-08-20 17:18-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjab-translation@googlegroups.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Lokalize 23.04.3\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "ਟੂਰ"
 
@@ -39,85 +39,161 @@ msgstr "ਗਨੋਮ ਟੂਰ ਤੇ ਸਵਾਗਤੀ"
 msgid "A guided tour and greeter for GNOME."
 msgstr "ਗਨੋਮ ਲਈ ਸੇਧ ਦਿੰਦਾ ਟੂਰ ਤੇ ਸਵਾਗਤੀ ਹੈ।"
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:42
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "ਗਨੋਮ ਪਰੋਜੈਕਟ"
 
-#: data/resources/ui/paginator.ui:28
-#| msgid "_Previous"
+#: data/resources/ui/paginator.ui:25
 msgid "Previous"
 msgstr "ਪਿੱਛੇ"
 
-#: data/resources/ui/paginator.ui:41
-#| msgid "_Next"
+#: data/resources/ui/paginator.ui:38
 msgid "Next"
 msgstr "ਅੱਗੇ"
 
-#: data/resources/ui/paginator.ui:54
-#| msgid "_Start"
+#: data/resources/ui/paginator.ui:51
 msgid "Start"
 msgstr "ਸ਼ੁਰੂ ਕਰੋ"
 
-#: data/resources/ui/window.ui:11
-msgid "Start the Tour"
-msgstr "ਟੂਰ ਸ਼ੁਰੂ ਕਰੋ"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "ਸਾਰ ਵੇਖੋ"
 
+#. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
-#| msgid "Press Activities to see open windows and apps."
-msgid "Press the Super key to see open windows and apps."
-msgstr "ਖੁੱਲ੍ਹੀਆਂ ਵਿੰਡੋ ਅਤੇ ਐਪਾਂ ਵੇਖਣ ਲਈ ਸੁਪਰ ਸਵਿੱਚ ਨੂੰ ਦਬਾਓ।"
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
 
 #: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "ਬੱਸ ਖੋਜੋ ਵਿੱਚ ਲਿਖੋ"
+msgid "Powerful Search"
+msgstr ""
 
 #: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "ਖੋਜਣ ਲਈ ਸਾਰ ਵਿੱਚ ਲਿਖੋ। ਐਪਾਂ ਚਲਾਓ ਅਤੇ ਚੀਜ਼ਾਂ ਲੱਭੋ।"
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
+msgstr ""
 
 #: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "ਵਰਕਸਪੇਸ ਬਾਰੇ ਸਮਝੋ"
-
-#: data/resources/ui/window.ui:32
-#| msgid "Easily organize windows with the new workspaces view."
-msgid "Easily organize windows with the workspaces view."
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr "ਵਰਕਸਪੇਸ ਝਲਕ ਨਾਲ ਵਿੰਡੋ ਦਾ ਸੌਖੀ ਤਰ੍ਹਾਂ ਇੰਤਜ਼ਾਮ ਕਰੋ।"
 
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
+
 #: data/resources/ui/window.ui:38
-msgid "Up/Down for the Overview"
-msgstr "ਸੰਖੇਪ ਝਲਕ ਲਈ ਉੱਤੇ/ਹੇਠਾਂ"
+msgid "Swipe Up and Down"
+msgstr ""
 
 #: data/resources/ui/window.ui:39
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "ਟੱਚ ਪੈਡ ਉੱਤੇ, 3 ਉਗਲਾਂ ਨਾਲ ਖੜ੍ਹਵੇਂ ਰੂਪ ਵਿੱਚ ਸਰਕਾਓ। ਵਰਤ ਕੇ ਵੇਖੋ!"
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
+msgstr ""
 
 #: data/resources/ui/window.ui:45
-msgid "Left/Right for Workspaces"
-msgstr "ਵਰਕਸਪੇਸਾਂ ਲਈ ਸੱਜੇ/ਖੱਬੇ"
+msgid "Swipe Left and Right"
+msgstr ""
 
 #: data/resources/ui/window.ui:46
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "ਟੱਚ ਪੈਡ ਉੱਤੇ, 3 ਉਂਗਲਾਂ ਲੇਟਵੇਂ ਰੂਪ ਵਿੱਚ ਵਰਤੋਂ। ਵਰਤ ਕੇ ਵੇਖੋ!"
+msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr ""
 
-#: data/resources/ui/window.ui:52
-msgid "That's it. Have a nice day!"
-msgstr "ਬੱਸ ਐਨਾ ਹੀ ਹੈ। ਮੌਜਾਂ ਮਾਣੋ!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "ਹੋਰ ਸਲਾਹ ਤੇ ਟੋਟਕੇ ਲੈਣ ਲਈ, ਮਦਦ ਐਪ ਨੂੰ ਵੇਖੋ।"
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
 
-#. Translators: The following string is formated as "Learn about new and essential
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+
+#. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
-#| msgid "Learn about new and essential features in {} {}."
 msgid "Learn about the key features in {name} {version}."
 msgstr "{name} {version} ਦੇ ਜ਼ਰੂਰੀ ਫ਼ੀਚਰਾਂ ਬਾਰੇ ਸਿੱਖੋ।"
+
+#~ msgid "Start the Tour"
+#~ msgstr "ਟੂਰ ਸ਼ੁਰੂ ਕਰੋ"
+
+#~| msgid "Press Activities to see open windows and apps."
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "ਖੁੱਲ੍ਹੀਆਂ ਵਿੰਡੋ ਅਤੇ ਐਪਾਂ ਵੇਖਣ ਲਈ ਸੁਪਰ ਸਵਿੱਚ ਨੂੰ ਦਬਾਓ।"
+
+#~ msgid "Just Type to Search"
+#~ msgstr "ਬੱਸ ਖੋਜੋ ਵਿੱਚ ਲਿਖੋ"
+
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr "ਖੋਜਣ ਲਈ ਸਾਰ ਵਿੱਚ ਲਿਖੋ। ਐਪਾਂ ਚਲਾਓ ਅਤੇ ਚੀਜ਼ਾਂ ਲੱਭੋ।"
+
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "ਵਰਕਸਪੇਸ ਬਾਰੇ ਸਮਝੋ"
+
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "ਸੰਖੇਪ ਝਲਕ ਲਈ ਉੱਤੇ/ਹੇਠਾਂ"
+
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr "ਟੱਚ ਪੈਡ ਉੱਤੇ, 3 ਉਗਲਾਂ ਨਾਲ ਖੜ੍ਹਵੇਂ ਰੂਪ ਵਿੱਚ ਸਰਕਾਓ। ਵਰਤ ਕੇ ਵੇਖੋ!"
+
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "ਵਰਕਸਪੇਸਾਂ ਲਈ ਸੱਜੇ/ਖੱਬੇ"
+
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr "ਟੱਚ ਪੈਡ ਉੱਤੇ, 3 ਉਂਗਲਾਂ ਲੇਟਵੇਂ ਰੂਪ ਵਿੱਚ ਵਰਤੋਂ। ਵਰਤ ਕੇ ਵੇਖੋ!"
+
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "ਬੱਸ ਐਨਾ ਹੀ ਹੈ। ਮੌਜਾਂ ਮਾਣੋ!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "ਹੋਰ ਸਲਾਹ ਤੇ ਟੋਟਕੇ ਲੈਣ ਲਈ, ਮਦਦ ਐਪ ਨੂੰ ਵੇਖੋ।"
 
 #~ msgid "Main Window"
 #~ msgstr "ਮੁੱਖ ਵਿੰਡੋ"

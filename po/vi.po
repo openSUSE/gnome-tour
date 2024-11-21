@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-04-14 20:42+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2022-04-30 08:18+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Gtranslator 3.38.0\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Thăm quan"
 
@@ -39,78 +39,161 @@ msgstr "Giới thiệu & Thăm quan GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Hướng dẫn thăm quan và giới thiệu dành cho GNOME."
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:41
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "Dự án GNOME"
 
-#: data/resources/ui/paginator.ui:27
+#: data/resources/ui/paginator.ui:25
 msgid "Previous"
 msgstr "Kế trước"
 
-#: data/resources/ui/paginator.ui:40
+#: data/resources/ui/paginator.ui:38
 msgid "Next"
 msgstr "Kế tiếp"
 
-#: data/resources/ui/paginator.ui:53
+#: data/resources/ui/paginator.ui:51
 msgid "Start"
 msgstr "Bắt đầu"
 
-#: data/resources/ui/window.ui:11
-msgid "Start the Tour"
-msgstr "Bắt đầu tham quan"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "Để xem Tổng quan"
 
+#. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
-msgid "Press the Super key to see open windows and apps."
-msgstr "Nhấn phím Super (Win) để xem các cửa sổ và ứng dụng đang mở."
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
 
 #: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Chỉ cần gõ để Tìm kiếm"
+msgid "Powerful Search"
+msgstr ""
 
 #: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "Gõ trong tổng quan để tìm kiếm. Khởi chạy các ứng dụng, tìm các thứ."
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
+msgstr ""
 
 #: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Giữ trên cùng với các Không gian làm việc"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr "Dễ dàng quản lý các cửa sổ với bộ xem không gian làm việc."
 
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
+
 #: data/resources/ui/window.ui:38
-msgid "Up/Down for the Overview"
-msgstr "Phím mũi tên lên/xuống cho Tổng quan"
+msgid "Swipe Up and Down"
+msgstr ""
 
 #: data/resources/ui/window.ui:39
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "Trên touchpad, dùng ba ngón tay quẹt dọc. Thử đi!"
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
+msgstr ""
 
 #: data/resources/ui/window.ui:45
-msgid "Left/Right for Workspaces"
-msgstr "Phím mũi tên phải/trái cho các Không gian làm việc"
+msgid "Swipe Left and Right"
+msgstr ""
 
 #: data/resources/ui/window.ui:46
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "Trên touchpad, dùng ba ngón tay quẹt ngang. Thử đi!"
+msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr ""
 
-#: data/resources/ui/window.ui:52
-msgid "That's it. Have a nice day!"
-msgstr "Hết rồi. Chúc một ngày tốt lành!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "Để có thêm tư vấn và mẹo, xem trong ứng dụng Trợ giúp."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+
+#. Translators: The following string is formatted as "Learn about new and essential
+#. features in GNOME 3.36" for example
+#: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Tìm hiểu về các tính năng then chốt trong {name} {version}."
+
+#~ msgid "Start the Tour"
+#~ msgstr "Bắt đầu tham quan"
+
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "Nhấn phím Super (Win) để xem các cửa sổ và ứng dụng đang mở."
+
+#~ msgid "Just Type to Search"
+#~ msgstr "Chỉ cần gõ để Tìm kiếm"
+
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr ""
+#~ "Gõ trong tổng quan để tìm kiếm. Khởi chạy các ứng dụng, tìm các thứ."
+
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "Giữ trên cùng với các Không gian làm việc"
+
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "Phím mũi tên lên/xuống cho Tổng quan"
+
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr "Trên touchpad, dùng ba ngón tay quẹt dọc. Thử đi!"
+
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "Phím mũi tên phải/trái cho các Không gian làm việc"
+
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr "Trên touchpad, dùng ba ngón tay quẹt ngang. Thử đi!"
+
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "Hết rồi. Chúc một ngày tốt lành!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "Để có thêm tư vấn và mẹo, xem trong ứng dụng Trợ giúp."
 
 #~ msgid "Main Window"
 #~ msgstr "Cửa sổ chính"

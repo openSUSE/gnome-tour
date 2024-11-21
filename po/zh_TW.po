@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-05-20 11:01+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2022-05-26 07:45+0800\n"
 "Last-Translator: Freddy Cheng <freddy4212@gmail.com>\n"
 "Language-Team: Chinese - Taiwan <chinese-l10n@googlegroups.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "導覽"
 
@@ -40,78 +40,160 @@ msgstr "GNOME 導覽與歡迎程式"
 msgid "A guided tour and greeter for GNOME."
 msgstr "GNOME 的介紹導覽與歡迎應用程式。"
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:41
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "GNOME 專案"
 
-#: data/resources/ui/paginator.ui:27
+#: data/resources/ui/paginator.ui:25
 msgid "Previous"
 msgstr "上一步"
 
-#: data/resources/ui/paginator.ui:40
+#: data/resources/ui/paginator.ui:38
 msgid "Next"
 msgstr "下一步"
 
-#: data/resources/ui/paginator.ui:53
+#: data/resources/ui/paginator.ui:51
 msgid "Start"
 msgstr "開始"
 
-#: data/resources/ui/window.ui:11
-msgid "Start the Tour"
-msgstr "開始導覽"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "全域概覽"
 
+#. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
-msgid "Press the Super key to see open windows and apps."
-msgstr "按下 Super 鍵可以查看開啟的視窗與應用程式。"
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
 
 #: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "輸入即可搜尋"
+msgid "Powerful Search"
+msgstr ""
 
 #: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "在概覽中輸入文字可以使用搜尋，能夠啟動應用程式或找尋東西。"
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
+msgstr ""
 
 #: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "俯瞰工作區"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr "輕鬆管理工作區中開啟的視窗。"
 
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
+
 #: data/resources/ui/window.ui:38
-msgid "Up/Down for the Overview"
-msgstr "上下滑動進入概覽"
+msgid "Swipe Up and Down"
+msgstr ""
 
 #: data/resources/ui/window.ui:39
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "試試看在觸控板上使用三隻手指垂直滑動。"
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
+msgstr ""
 
 #: data/resources/ui/window.ui:45
-msgid "Left/Right for Workspaces"
-msgstr "左右滑動切換工作區"
+msgid "Swipe Left and Right"
+msgstr ""
 
 #: data/resources/ui/window.ui:46
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "試試看在觸控板上使用三隻手指水平滑動。"
+msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr ""
 
-#: data/resources/ui/window.ui:52
-msgid "That's it. Have a nice day!"
-msgstr "就這樣囉！祝您使用愉快。"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "想知道更多使用建議或訣竅的話，請參見《求助》應用程式。"
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+
+#. Translators: The following string is formatted as "Learn about new and essential
+#. features in GNOME 3.36" for example
+#: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "了解 {name} {version} 的主要操作。"
+
+#~ msgid "Start the Tour"
+#~ msgstr "開始導覽"
+
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "按下 Super 鍵可以查看開啟的視窗與應用程式。"
+
+#~ msgid "Just Type to Search"
+#~ msgstr "輸入即可搜尋"
+
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr "在概覽中輸入文字可以使用搜尋，能夠啟動應用程式或找尋東西。"
+
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "俯瞰工作區"
+
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "上下滑動進入概覽"
+
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr "試試看在觸控板上使用三隻手指垂直滑動。"
+
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "左右滑動切換工作區"
+
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr "試試看在觸控板上使用三隻手指水平滑動。"
+
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "就這樣囉！祝您使用愉快。"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "想知道更多使用建議或訣竅的話，請參見《求助》應用程式。"
 
 #~ msgid "Main Window"
 #~ msgstr "主視窗"

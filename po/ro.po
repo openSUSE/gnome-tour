@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-07-05 15:12+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-08-06 10:53+0300\n"
 "Last-Translator: Florentina Mușat <florentina [dot] musat [dot] 28 [at] "
 "gmail [dot] com>\n"
@@ -41,8 +41,13 @@ msgstr "Tur ce vă introduce în GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Un tur ghidat și o persoană care vă introduce în GNOME."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "Proiectul GNOME"
 
@@ -58,9 +63,9 @@ msgstr "Următor"
 msgid "Start"
 msgstr "Începe"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Să începem"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -120,20 +125,64 @@ msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr ""
 "Pentru a vă muta între spațiile de lucru, glisați trei degete orizontal."
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "Asta e tot!"
-
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
+#: data/resources/ui/window.ui:102
+msgid "Basics"
 msgstr ""
-"Pentru a obține mai multe sfaturi și îndrumări, consultați aplicația Ajutor."
+
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+#, fuzzy
+msgid "Get Software"
+msgstr "Software"
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Aflați despre funcționalitățile esențiale din {name} {version}."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Să începem"
+
+#~ msgid "That's It!"
+#~ msgstr "Asta e tot!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr ""
+#~ "Pentru a obține mai multe sfaturi și îndrumări, consultați aplicația "
+#~ "Ajutor."
 
 #~ msgid "Start the Tour"
 #~ msgstr "Începeți turul"
@@ -250,9 +299,6 @@ msgstr "Aflați despre funcționalitățile esențiale din {name} {version}."
 
 #~ msgid "System Menu"
 #~ msgstr "Meniul de sistem"
-
-#~ msgid "Software"
-#~ msgstr "Software"
 
 #~ msgid "Tour Completed"
 #~ msgstr "Tur completat"

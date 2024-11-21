@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-04-16 16:25+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2024-04-16 22:41+0600\n"
 "Last-Translator: Mahdi Hasan <mahdi4260@proton.me>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -38,8 +38,13 @@ msgstr "গ্নোমের সফর ও স্বাগতকারী"
 msgid "A guided tour and greeter for GNOME."
 msgstr "গ্নোমের নির্দেশনামূলক সফর এবং স্বাগতকারী"
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "গ্নোম প্রকল্প"
 
@@ -55,9 +60,9 @@ msgstr "পরবর্তী"
 msgid "Start"
 msgstr "শুরু"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "চলো শুরু করি"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -66,8 +71,10 @@ msgstr "একটি সার্বিক দৃশ্য দেখুন"
 #. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
 msgid ""
-"The overview shows all your apps and windows. Press the Super (Windows) key to open it."
-msgstr "সার্বিক দৃশ্য আপনার সমস্ত অ্যাপ এবং উইন্ডো দেখায়। এটি দেখতে সুপার (উইন্ডোজ) কি চাপুন।"
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
+"সার্বিক দৃশ্য আপনার সমস্ত অ্যাপ এবং উইন্ডো দেখায়। এটি দেখতে সুপার (উইন্ডোজ) কি চাপুন।"
 
 #: data/resources/ui/window.ui:24
 msgid "Powerful Search"
@@ -75,11 +82,11 @@ msgstr "শক্তিশালী অনুসন্ধান"
 
 #: data/resources/ui/window.ui:25
 msgid ""
-"To search, just start typing in the overview. You can use search to launch apps, find "
-"files, perform calculations, and more."
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
 msgstr ""
-"অনুসন্ধান করতে, শুধু সার্বিক দৃশ্যে লিখা শুরু করুন। আপনি অ্যাপ চালু করতে, ফাইল খুঁজে বের করতে, গণনা "
-"সম্পাদন করতে এবং আরও অনেক কিছু করতে সার্চ ব্যবহার করতে পারেন।"
+"অনুসন্ধান করতে, শুধু সার্বিক দৃশ্যে লিখা শুরু করুন। আপনি অ্যাপ চালু করতে, ফাইল খুঁজে বের "
+"করতে, গণনা সম্পাদন করতে এবং আরও অনেক কিছু করতে সার্চ ব্যবহার করতে পারেন।"
 
 #: data/resources/ui/window.ui:31
 msgid "Stay Organized With Workspaces"
@@ -87,18 +94,19 @@ msgstr "কার্যক্ষেত্রের দ্বারা সংগ�
 
 #: data/resources/ui/window.ui:32
 msgid ""
-"Organize your windows by moving them into different workspaces. This can be done by "
-"dragging them in the overview."
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
 msgstr ""
-"আপনার উইন্ডোগুলিকে বিভিন্ন কার্যক্ষেত্রে সরানোর মাধ্যমে সাজান। সার্বিক দৃশ্যে তাদের টেনে এনে এটি "
-"করা যেতে পারে।"
+"আপনার উইন্ডোগুলিকে বিভিন্ন কার্যক্ষেত্রে সরানোর মাধ্যমে সাজান। সার্বিক দৃশ্যে তাদের "
+"টেনে এনে এটি করা যেতে পারে।"
 
 #: data/resources/ui/window.ui:38
 msgid "Swipe Up and Down"
 msgstr "উপরে এবং নিচে ঘষুন"
 
 #: data/resources/ui/window.ui:39
-msgid "To quickly open the overview with a touchpad, swipe up with three fingers."
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
 msgstr "একটি টাচপ্যাড দিয়ে দ্রুত সার্বিক দৃশ্যে যেতে, তিনটি আঙ্গুল দিয়ে উপরে ঘষুন।"
 
 #: data/resources/ui/window.ui:45
@@ -109,19 +117,61 @@ msgstr "ডানে এবং বামে ঘষুন"
 msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr "কার্যক্ষেত্র বদলাতে, অনুভূমিকভাবে তিনটি আঙ্গুল দিয়ে ঘষুন।"
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "এটাই!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "আরও পরামর্শ এবং টিপস পেতে 'সহায়তা' অ্যাপটি দেখুন।"
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "{name} {version} এর নতুন বৈশিষ্ট্যমূলক গুণাবলী সম্পর্কে আরও জানুন।"
+
+#~ msgid "Let's Begin"
+#~ msgstr "চলো শুরু করি"
+
+#~ msgid "That's It!"
+#~ msgstr "এটাই!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "আরও পরামর্শ এবং টিপস পেতে 'সহায়তা' অ্যাপটি দেখুন।"
 
 #~ msgid "Start the Tour"
 #~ msgstr "সফর শুরু করুন"
@@ -133,7 +183,8 @@ msgstr "{name} {version} এর নতুন বৈশিষ্ট্যমূ�
 #~ msgstr "অনুসন্ধান করতে শুধু লিখা শুরু করুন"
 
 #~ msgid "Type in the overview to search. Launch apps, find things."
-#~ msgstr "সার্বিক দৃশ্যে থাকাকালে অনুসন্ধান করতে লিখা শুরু করুন। অ্যাপ চালান, জিনিসপত্র খুঁজুন।"
+#~ msgstr ""
+#~ "সার্বিক দৃশ্যে থাকাকালে অনুসন্ধান করতে লিখা শুরু করুন। অ্যাপ চালান, জিনিসপত্র খুঁজুন।"
 
 #~ msgid "Keep on Top with Workspaces"
 #~ msgstr "কার্যক্ষেত্র ব্যাবহার করে সব হাতের মুঠোয় রাখুন"

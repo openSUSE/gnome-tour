@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2023-05-05 14:05+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2023-09-15 22:32+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Gtranslator 42.0\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Rondvojaĝo"
 
@@ -40,79 +40,161 @@ msgstr "GNOME Rondvojaĝo kaj Enkonduko"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Gvida rondvojaĝo kaj enkonduko por GNOME."
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:42
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "La projekto GNOME"
 
-#: data/resources/ui/paginator.ui:28
+#: data/resources/ui/paginator.ui:25
 msgid "Previous"
 msgstr "Antaŭa"
 
-#: data/resources/ui/paginator.ui:41
+#: data/resources/ui/paginator.ui:38
 msgid "Next"
 msgstr "Sekva"
 
-#: data/resources/ui/paginator.ui:54
+#: data/resources/ui/paginator.ui:51
 msgid "Start"
 msgstr "Komenco"
 
-#: data/resources/ui/window.ui:11
-msgid "Start the Tour"
-msgstr "Komenci la rondvojaĝon"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "Akiri superrigardon"
 
+#. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
-msgid "Press the Super key to see open windows and apps."
-msgstr "Premu la Super-klavon por vidi malfermitajn fenestrojn kaj apojn."
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
 
 #: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Simple tajpu por serĉi"
+msgid "Powerful Search"
+msgstr ""
 
 #: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "Tajpu en la superrigardon por serĉi. Lanĉu programojn, trovu aferojn."
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
+msgstr ""
 
 #: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Observi aferojn per laborspacoj"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr "Facile organizi fenestrojn kun la vido de laborspacoj."
 
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
+
 #: data/resources/ui/window.ui:38
-msgid "Up/Down for the Overview"
-msgstr "Supren/Malsupren por la superrigardo"
+msgid "Swipe Up and Down"
+msgstr ""
 
 #: data/resources/ui/window.ui:39
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "Sur tuŝplato, uzu tri-fingrojn vertikalajn svingojn. Provu ĝin!"
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
+msgstr ""
 
 #: data/resources/ui/window.ui:45
-msgid "Left/Right for Workspaces"
-msgstr "Maldekstre/Dekstre por laborspacoj"
+msgid "Swipe Left and Right"
+msgstr ""
 
 #: data/resources/ui/window.ui:46
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "Sur tuŝplato, uzu tri-fingrojn horizontalajn svingojn. Provu ĝin!"
+msgid "To move between workspaces, swipe three fingers horizontally."
+msgstr ""
 
-#: data/resources/ui/window.ui:52
-msgid "That's it. Have a nice day!"
-msgstr "Jen ĝi. Havu bonan tagon!"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr ""
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "Por pli da konsiloj, vidu la programon Helpo."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
 
-#. Translators: The following string is formated as "Learn about new and essential
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+
+#. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Lernu pri la ĉefaj funkcioj en {name} {version}."
+
+#~ msgid "Start the Tour"
+#~ msgstr "Komenci la rondvojaĝon"
+
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "Premu la Super-klavon por vidi malfermitajn fenestrojn kaj apojn."
+
+#~ msgid "Just Type to Search"
+#~ msgstr "Simple tajpu por serĉi"
+
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr ""
+#~ "Tajpu en la superrigardon por serĉi. Lanĉu programojn, trovu aferojn."
+
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "Observi aferojn per laborspacoj"
+
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "Supren/Malsupren por la superrigardo"
+
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr "Sur tuŝplato, uzu tri-fingrojn vertikalajn svingojn. Provu ĝin!"
+
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "Maldekstre/Dekstre por laborspacoj"
+
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr "Sur tuŝplato, uzu tri-fingrojn horizontalajn svingojn. Provu ĝin!"
+
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "Jen ĝi. Havu bonan tagon!"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "Por pli da konsiloj, vidu la programon Helpo."
 
 #~ msgid "Main Window"
 #~ msgstr "Ĉefa fenestro"

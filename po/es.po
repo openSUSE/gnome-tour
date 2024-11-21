@@ -2,21 +2,22 @@
 # Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2021-2024.
+# danigm <danigm@gnome.org>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
-"POT-Creation-Date: 2024-02-26 12:47+0000\n"
-"PO-Revision-Date: 2024-02-26 13:46+0100\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
+"PO-Revision-Date: 2024-11-21 10:50+0100\n"
+"Last-Translator: danigm <danigm@gnome.org>\n"
+"Language-Team: Spanish - Spain <es@gnome.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 45.3\n"
+"X-Generator: Gtranslator 47.0\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
 #: src/main.rs:27
@@ -39,8 +40,13 @@ msgstr "GNOME Tour y bienvenida"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Un tour guiado y una bienvenida a GNOME."
 
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:45
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "El Proyecto GNOME"
 
@@ -56,9 +62,9 @@ msgstr "Siguiente"
 msgid "Start"
 msgstr "Empezar"
 
-#: data/resources/ui/window.ui:11
-msgid "Let's Begin"
-msgstr "Comenzar"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr "Aloha, esto es openSUSE"
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -117,19 +123,65 @@ msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr ""
 "Para moverse entre áreas de trabajo, deslice tres dedos horizontalmente."
 
-#: data/resources/ui/window.ui:52
-msgid "That's It!"
-msgstr "Eso es todo"
+#: data/resources/ui/window.ui:102
+msgid "Basics"
+msgstr "Lo esencial"
 
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
-msgstr "Para obtener más consejos y pistas consulte la aplicación Ayuda."
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr "Léame"
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr "Documentación"
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr "Obtener programas"
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr "Ayuda"
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr "Contribuir"
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr "Build openSUSE"
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr "Ayuda con una donación"
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+"Si es la primera vez que utiliza openSUSE, nos gustaría que se sintiera como "
+"en casa en su nueva andadura. Tómese su tiempo para familiarizarse con los "
+"botones y háganos saber si le gusta la experiencia en las <a href=\"https://"
+"en.opensuse.org/openSUSE:Social_media_contacts\">redes sociales</a>."
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Aprender más sobre las características esenciales en {name} {version}."
+
+#~ msgid "Let's Begin"
+#~ msgstr "Comenzar"
+
+#~ msgid "That's It!"
+#~ msgstr "Eso es todo"
+
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr "Para obtener más consejos y pistas consulte la aplicación Ayuda."
 
 #~ msgid "Main Window"
 #~ msgstr "Ventana principal"
@@ -263,9 +315,6 @@ msgstr "Aprender más sobre las características esenciales en {name} {version}.
 
 #~ msgid "System Menu"
 #~ msgstr "Menú del sistema"
-
-#~ msgid "Software"
-#~ msgstr "Software"
 
 #~| msgid ""
 #~| "The Software app makese it easy to find and install all the apps you "

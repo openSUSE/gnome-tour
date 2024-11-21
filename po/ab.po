@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-05-20 11:01+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 10:47+0100\n"
 "PO-Revision-Date: 2022-02-09 19:58+0000\n"
 "Last-Translator: Нанба Наала <naala-nanba@rambler.ru>\n"
 "Language-Team: Abkhazian <ab@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: src/main.rs:27
 msgid "Tour"
 msgstr "Аекскурсиа"
 
@@ -38,147 +38,216 @@ msgstr "GNOME Аԥсшәаҳәареи Аекскурсиеи "
 msgid "A guided tour and greeter for GNOME."
 msgstr "Имҩаақәҵоу аекскурсиа аԥсшәаҳәара GNOME азы"
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:41
+#: data/org.gnome.Tour.metainfo.xml.in.in:30
+msgid "String improvements and updated translations."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Tour.metainfo.xml.in.in:51
+#: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "Апроект GNOME"
 
-#: data/resources/ui/paginator.ui:27
+#: data/resources/ui/paginator.ui:25
 msgid "Previous"
 msgstr "Шьҭахьҟа"
 
-#: data/resources/ui/paginator.ui:40
+#: data/resources/ui/paginator.ui:38
 msgid "Next"
 msgstr "Анаҩс"
 
-#: data/resources/ui/paginator.ui:53
+#: data/resources/ui/paginator.ui:51
 msgid "Start"
 msgstr "Алагара"
 
-#: data/resources/ui/window.ui:11
-msgid "Start the Tour"
-msgstr "Аекскурсиа алагара"
+#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
+msgid "Ahoy, this is openSUSE"
+msgstr ""
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "Алаԥшхгара арежим"
 
+#. Translators: 'Windows' is referring to the operating system and should not be translated
 #: data/resources/ui/window.ui:18
-msgid "Press the Super key to see open windows and apps."
-msgstr "Шәақәыӷәӷәа арыд Super, иаарту аԥенџьырқәеи аԥшьқәеи рбаразы"
+msgid ""
+"The overview shows all your apps and windows. Press the Super (Windows) key "
+"to open it."
+msgstr ""
 
 #: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Иҭажәгал ажәа аԥшааразы"
+msgid "Powerful Search"
+msgstr ""
 
 #: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
+msgid ""
+"To search, just start typing in the overview. You can use search to launch "
+"apps, find files, perform calculations, and more."
 msgstr ""
-"Иҭажәгал аԥшаара ашәага алаԥшхагара арежим аҟны. Аԥшьқәа аус ршәырула, "
-"ишәыԥшаалаишәҭаху амаҭәарқәа."
 
 #: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Иацышәҵа Аусуратә иужьрақәа аус рыдулара"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
+#, fuzzy
+msgid "Stay Organized With Workspaces"
 msgstr ""
 "Иаармарианы наԥхгара рзыжәуала аԥенџьырқәа, аусуратә иужьрақәа рыхкқәа шәхы "
 "иархәаны"
 
+#: data/resources/ui/window.ui:32
+msgid ""
+"Organize your windows by moving them into different workspaces. This can be "
+"done by dragging them in the overview."
+msgstr ""
+
 #: data/resources/ui/window.ui:38
-msgid "Up/Down for the Overview"
-msgstr "Аҩада/Алада Ақәыԥшыларатә режимла"
+msgid "Swipe Up and Down"
+msgstr ""
 
 #: data/resources/ui/window.ui:39
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+msgid ""
+"To quickly open the overview with a touchpad, swipe up with three fingers."
 msgstr ""
-"Акьыснырратә панель аҟны шәхы иашәархәа ахагәҵәытә еиҭагара х-нацәак "
-"рылаШәҽазышәшәа!"
 
 #: data/resources/ui/window.ui:45
-msgid "Left/Right for Workspaces"
-msgstr "Арымарахь/Арыӷьарахь аусуратә иужьрақәа рзы"
+msgid "Swipe Left and Right"
+msgstr ""
 
 #: data/resources/ui/window.ui:46
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+msgid "To move between workspaces, swipe three fingers horizontally."
 msgstr ""
-"Акьыснырратә панель аҟны шәхы иашәархәа ииаалоу аиҭагара х-нацәак рыла  "
-"Шәҽазышәшәа!"
 
-#: data/resources/ui/window.ui:52
-msgid "That's it. Have a nice day!"
-msgstr "Абр  аҟара ауп! Шәымш аабзиахааит!"
-
-#: data/resources/ui/window.ui:53
-msgid "To get more advice and tips, see the Help app."
+#: data/resources/ui/window.ui:102
+msgid "Basics"
 msgstr ""
-"Иҵегь абжьгарақәеи адгаларақәеи шәоурц азы, шәнапы алашәкы аԥшьы Аилыркаа"
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#: data/resources/ui/window.ui:116
+msgid "Read me"
+msgstr ""
+
+#: data/resources/ui/window.ui:128
+msgid "Documentation"
+msgstr ""
+
+#: data/resources/ui/window.ui:140
+msgid "Get Software"
+msgstr ""
+
+#: data/resources/ui/window.ui:167
+msgid "Support"
+msgstr ""
+
+#: data/resources/ui/window.ui:181
+msgid "Contribute"
+msgstr ""
+
+#: data/resources/ui/window.ui:193
+msgid "Build openSUSE"
+msgstr ""
+
+#: data/resources/ui/window.ui:205
+msgid "Help by Donation"
+msgstr ""
+
+#: data/resources/ui/window.ui:218
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our <a "
+"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
+"media</a>."
+msgstr ""
+
+#. Translators: The following string is formatted as "Learn about new and essential
+#. features in GNOME 3.36" for example
+#: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
 msgstr "Еилышәкаа хадара злоу алҿиаақәа ирызкны {name} {version} рҟны"
 
-#: src/gui/gtd-application.c:133
-msgid "Copyright © 2015–2020 The Endeavour authors"
-msgstr "Copyright © 2015–2020 Аԥшьы To Do аԥҵаҩцәа"
+#~ msgid "Start the Tour"
+#~ msgstr "Аекскурсиа алагара"
 
-#: src/gui/gtd-application.c:138
-msgid "translator-credits"
-msgstr "Нанба Наала <naala-nanba@rambler.ru>, 2022"
+#~ msgid "Press the Super key to see open windows and apps."
+#~ msgstr "Шәақәыӷәӷәа арыд Super, иаарту аԥенџьырқәеи аԥшьқәеи рбаразы"
 
-#: src/gui/gtd-new-task-row.c:90
-msgid "%1$s  <small>%2$s</small>"
-msgstr "%1$s  <small>%2$s</small>"
+#~ msgid "Just Type to Search"
+#~ msgstr "Иҭажәгал ажәа аԥшааразы"
 
-#: src/gui/gtd-provider-selector.ui:35
-msgid "Google"
-msgstr "Google"
+#~ msgid "Type in the overview to search. Launch apps, find things."
+#~ msgstr ""
+#~ "Иҭажәгал аԥшаара ашәага алаԥшхагара арежим аҟны. Аԥшьқәа аус ршәырула, "
+#~ "ишәыԥшаалаишәҭаху амаҭәарқәа."
 
-#: src/gui/gtd-provider-selector.ui:61
-msgid "ownCloud"
-msgstr "ownCloud"
+#~ msgid "Keep on Top with Workspaces"
+#~ msgstr "Иацышәҵа Аусуратә иужьрақәа аус рыдулара"
 
-#: src/gui/gtd-provider-selector.ui:87
-msgid "Microsoft Exchange"
-msgstr "Microsoft Exchange"
+#~ msgid "Up/Down for the Overview"
+#~ msgstr "Аҩада/Алада Ақәыԥшыларатә режимла"
 
-#: src/plugins/background/gtd-plugin-background.c:238
-msgid "%1$s and one more task"
-msgid_plural "%1$s and %2$d other tasks"
-msgstr[0] "%1$s даҽа %2$d ҳасабтәки"
-msgstr[1] "%1$s  даҽа %2$d  ҳасабтәқәеи"
+#~ msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+#~ msgstr ""
+#~ "Акьыснырратә панель аҟны шәхы иашәархәа ахагәҵәытә еиҭагара х-нацәак "
+#~ "рылаШәҽазышәшәа!"
 
-#: src/plugins/task-lists-workspace/gtd-sidebar.ui:90
-msgid "Archived"
-msgstr "Архивтәра азуп"
+#~ msgid "Left/Right for Workspaces"
+#~ msgstr "Арымарахь/Арыӷьарахь аусуратә иужьрақәа рзы"
 
-#: src/plugins/task-lists-workspace/gtd-task-list-panel.c:208+src/plugins/task-lists-workspace/gtd-task-list-panel.ui:52
-msgid "Archive"
-msgstr "Архивтәра"
+#~ msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+#~ msgstr ""
+#~ "Акьыснырратә панель аҟны шәхы иашәархәа ииаалоу аиҭагара х-нацәак рыла  "
+#~ "Шәҽазышәшәа!"
 
-#: src/plugins/todoist/gtd-provider-todoist.c:1100
-msgid "Todoist"
-msgstr "Todoist"
+#~ msgid "That's it. Have a nice day!"
+#~ msgstr "Абр  аҟара ауп! Шәымш аабзиахааит!"
 
-#: src/plugins/todoist/gtd-provider-todoist.c:1411
-msgid "Todoist: %s"
-msgstr "Todoist: %s"
+#~ msgid "To get more advice and tips, see the Help app."
+#~ msgstr ""
+#~ "Иҵегь абжьгарақәеи адгаларақәеи шәоурц азы, шәнапы алашәкы аԥшьы Аилыркаа"
 
-#: src/plugins/todo-txt/gtd-plugin-todo-txt.c:201
-msgid ""
-"<b>Warning!</b> Todo.txt support is experimental and unstable. You may "
-"experience instability, errors and eventually data loss. It is not "
-"recommended to use Todo.txt integration on production systems."
-msgstr ""
-"<b>Шәгәышәҽаныз</b> Адкылара Todo.txt иԥышшәагоуп насгьы иҭышәынтәалоуп."
-"Ишәԥылар рылшоит агхақәа, адыррақәа шәцәыӡыргьы ҟалоит. Ишәабжьаҳгоит  Todo."
-"txt ахархәара ашәымҭаларц аусуратә системақәа рҟны."
+#~ msgid "Copyright © 2015–2020 The Endeavour authors"
+#~ msgstr "Copyright © 2015–2020 Аԥшьы To Do аԥҵаҩцәа"
 
-#: src/plugins/todo-txt/gtd-provider-todo-txt.c:643
-msgid "Todo.txt"
-msgstr "Todo.txt"
+#~ msgid "translator-credits"
+#~ msgstr "Нанба Наала <naala-nanba@rambler.ru>, 2022"
+
+#~ msgid "%1$s  <small>%2$s</small>"
+#~ msgstr "%1$s  <small>%2$s</small>"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "ownCloud"
+#~ msgstr "ownCloud"
+
+#~ msgid "Microsoft Exchange"
+#~ msgstr "Microsoft Exchange"
+
+#~ msgid "%1$s and one more task"
+#~ msgid_plural "%1$s and %2$d other tasks"
+#~ msgstr[0] "%1$s даҽа %2$d ҳасабтәки"
+#~ msgstr[1] "%1$s  даҽа %2$d  ҳасабтәқәеи"
+
+#~ msgid "Archived"
+#~ msgstr "Архивтәра азуп"
+
+#~ msgid "Archive"
+#~ msgstr "Архивтәра"
+
+#~ msgid "Todoist"
+#~ msgstr "Todoist"
+
+#~ msgid "Todoist: %s"
+#~ msgstr "Todoist: %s"
+
+#~ msgid ""
+#~ "<b>Warning!</b> Todo.txt support is experimental and unstable. You may "
+#~ "experience instability, errors and eventually data loss. It is not "
+#~ "recommended to use Todo.txt integration on production systems."
+#~ msgstr ""
+#~ "<b>Шәгәышәҽаныз</b> Адкылара Todo.txt иԥышшәагоуп насгьы иҭышәынтәалоуп."
+#~ "Ишәԥылар рылшоит агхақәа, адыррақәа шәцәыӡыргьы ҟалоит. Ишәабжьаҳгоит  "
+#~ "Todo.txt ахархәара ашәымҭаларц аусуратә системақәа рҟны."
+
+#~ msgid "Todo.txt"
+#~ msgstr "Todo.txt"
 
 #~ msgid "Main Window"
 #~ msgstr "Ихадоу аԥенџьыр"
