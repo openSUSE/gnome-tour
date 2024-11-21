@@ -215,7 +215,7 @@
                 <child>
                   <object class="GtkLabel">
                     <property name="use-markup">true</property>
-                    <property name="label">If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our &lt;a href="https://en.opensuse.org/openSUSE:Social_media_contacts"&gt;social media&lt;/a&gt;.</property>
+                    <property name="label" translatable="yes">If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our &lt;a href="https://en.opensuse.org/openSUSE:Social_media_contacts"&gt;social media&lt;/a&gt;.</property>
                     <property name="lines">2</property>
                     <property name="wrap">true</property>
                     <property name="valign">center</property>
