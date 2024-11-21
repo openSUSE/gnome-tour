@@ -7,5 +7,5 @@ This is a fork of https://gitlab.gnome.org/GNOME/gnome-tour to customize the app
 
 ## Screenshots
 
-![screenshot](./data/resources/screenshots/screenshot1.png)
+![screenshot](./data/resources/screenshots/opensuse.png)
 
