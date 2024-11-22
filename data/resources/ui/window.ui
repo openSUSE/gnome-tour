@@ -136,7 +136,7 @@
                             <style><class name="software"/></style>
                             <property name="child">
                               <object class="AdwButtonContent">
-                                <property name="icon-name">system-software-install-symbolic</property>
+                                <property name="icon-name">folder-download-symbolic</property>
                                 <property name="label" translatable="yes">Get Software</property>
                               </object>
                             </property>
@@ -189,7 +189,7 @@
                             <property name="uri">https://build.opensuse.org/</property>
                             <property name="child">
                               <object class="AdwButtonContent">
-                                <property name="icon-name">preferences-system-symbolic</property>
+                                <property name="icon-name">applications-science-symbolic</property>
                                 <property name="label" translatable="yes">Build openSUSE</property>
                               </object>
                             </property>
@@ -201,7 +201,7 @@
                             <property name="uri">https://geekos.org/sponsorship/</property>
                             <property name="child">
                               <object class="AdwButtonContent">
-                                <property name="icon-name">emote-love-symbolic</property>
+                                <property name="icon-name">emoji-people-symbolic</property>
                                 <property name="label" translatable="yes">Help by Donation</property>
                               </object>
                             </property>
