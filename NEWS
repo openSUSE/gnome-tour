@@ -1,3 +1,11 @@
+gnome-tour 48.1
+===============
+* Fix gettext-sys pkg name
+
+gnome-tour 48.0
+===============
+* Translations updates
+
 gnome-tour 47.0
 ===============
 * Translations updates
