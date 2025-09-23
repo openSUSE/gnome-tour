@@ -1,52 +1,49 @@
 # Japanese translation for gnome-tour.
-# Copyright (C) 2020-2022 gnome-tour's COPYRIGHT HOLDER
+# Copyright (C) 2020-2022, 2025 gnome-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
 # Yuki Okushi <huyuumi.dev@gmail.com>, 2020.
 # sicklylife <translation@sicklylife.jp>, 2020-2022.
 # sujiniku <sujinikusityuu@gmail.com>, 2021.
 # 小山田 純 <oyamadajun@outlook.jp>, 2022.
-# 
+# Makoto Sakaguchi <ycco34vx@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 07:48+0100\n"
-"PO-Revision-Date: 2022-01-30 21:00+0900\n"
-"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
+"Project-Id-Version: gnome-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues/\n"
+"POT-Creation-Date: 2025-08-23 19:00+0000\n"
+"PO-Revision-Date: 2025-08-30 11:08+0900\n"
+"Last-Translator: Makoto Sakaguchi <ycco34vx@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
+#: data/org.gnome.Tour.desktop.in.in:2 data/org.gnome.Tour.metainfo.xml.in.in:7
 #: src/main.rs:27
 msgid "Tour"
 msgstr "ツアー"
 
-#: data/org.gnome.Tour.desktop.in.in:4
+#: data/org.gnome.Tour.desktop.in.in:3
 msgid "Greeter & Tour"
-msgstr "案内とツアー"
+msgstr "ウェルカム & ツアー"
 
-#: data/org.gnome.Tour.desktop.in.in:9
+#: data/org.gnome.Tour.desktop.in.in:8
 msgid "Gnome;GTK;"
 msgstr "Gnome;GTK;"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:8
 msgid "GNOME Tour and Greeter"
-msgstr "GNOME のツアー/案内"
+msgstr "GNOME ツアーとウェルカム"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
-msgstr "GNOME のガイドツアーと案内。"
-
-#: data/org.gnome.Tour.metainfo.xml.in.in:30
-msgid "String improvements and updated translations."
-msgstr ""
+msgstr "GNOME のガイドツアーとウェルカムアプリ。"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Tour.metainfo.xml.in.in:51
 #: data/org.gnome.Tour.metainfo.xml.in.in:53
 msgid "The GNOME Project"
 msgstr "The GNOME Project"
@@ -63,9 +60,9 @@ msgstr "次へ"
 msgid "Start"
 msgstr "始める"
 
-#: data/resources/ui/window.ui:11 data/resources/ui/window.ui:67
-msgid "Ahoy, this is openSUSE"
-msgstr ""
+#: data/resources/ui/window.ui:11
+msgid "Let's Begin"
+msgstr "はじめましょう"
 
 #: data/resources/ui/window.ui:17
 msgid "Get an Overview"
@@ -77,92 +74,64 @@ msgid ""
 "The overview shows all your apps and windows. Press the Super (Windows) key "
 "to open it."
 msgstr ""
+"アクティビティ画面ではすべてのアプリとウィンドウを一覧できます。Super "
+"(Windows) キーを押すと開きます。"
 
 #: data/resources/ui/window.ui:24
 msgid "Powerful Search"
-msgstr ""
+msgstr "強力な検索機能"
 
 #: data/resources/ui/window.ui:25
 msgid ""
 "To search, just start typing in the overview. You can use search to launch "
 "apps, find files, perform calculations, and more."
 msgstr ""
+"検索するにはアクティビティ画面で文字を入力するだけです。アプリの起動、ファイ"
+"ルの検索、計算の実行など、様々なことができます。"
 
 #: data/resources/ui/window.ui:31
-#, fuzzy
 msgid "Stay Organized With Workspaces"
-msgstr "ワークスペースビューでウィンドウを簡単に整理できます。"
+msgstr "ワークスペースで整理整頓"
 
 #: data/resources/ui/window.ui:32
 msgid ""
 "Organize your windows by moving them into different workspaces. This can be "
 "done by dragging them in the overview."
 msgstr ""
+"ウィンドウを異なるワークスペースに移動して整理できます。アクティビティ画面で"
+"ドラッグして移動できます。"
 
 #: data/resources/ui/window.ui:38
 msgid "Swipe Up and Down"
-msgstr ""
+msgstr "上下方向のスワイプ"
 
 #: data/resources/ui/window.ui:39
 msgid ""
 "To quickly open the overview with a touchpad, swipe up with three fingers."
 msgstr ""
+"タッチパッドでアクティビティ画面を素早く開くには、3本指で上にスワイプします。"
 
 #: data/resources/ui/window.ui:45
 msgid "Swipe Left and Right"
-msgstr ""
+msgstr "左右方向のスワイプ"
 
 #: data/resources/ui/window.ui:46
 msgid "To move between workspaces, swipe three fingers horizontally."
-msgstr ""
+msgstr "ワークスペース間を移動するには、3本指で左右にスワイプします。"
 
-#: data/resources/ui/window.ui:102
-msgid "Basics"
-msgstr ""
+#: data/resources/ui/window.ui:52
+msgid "That's It!"
+msgstr "以上です！"
 
-#: data/resources/ui/window.ui:116
-msgid "Read me"
-msgstr ""
-
-#: data/resources/ui/window.ui:128
-msgid "Documentation"
-msgstr ""
-
-#: data/resources/ui/window.ui:140
-#, fuzzy
-msgid "Get Software"
-msgstr "ソフトウェア"
-
-#: data/resources/ui/window.ui:167
-msgid "Support"
-msgstr ""
-
-#: data/resources/ui/window.ui:181
-msgid "Contribute"
-msgstr ""
-
-#: data/resources/ui/window.ui:193
-msgid "Build openSUSE"
-msgstr ""
-
-#: data/resources/ui/window.ui:205
-msgid "Help by Donation"
-msgstr ""
-
-#: data/resources/ui/window.ui:218
-msgid ""
-"If this is your first time using openSUSE, we would like you to feel right "
-"at home in your new voyage. Take your time to familiarize yourself with all "
-"the buttons and let us know how you like the experience on our <a "
-"href=\"https://en.opensuse.org/openSUSE:Social_media_contacts\">social "
-"media</a>."
-msgstr ""
+#: data/resources/ui/window.ui:53
+msgid "To get more advice and tips, see the Help app."
+msgstr "より詳しいアドバイスやヒントは “ヘルプ” アプリをご覧ください。"
 
 #. Translators: The following string is formatted as "Learn about new and essential
 #. features in GNOME 3.36" for example
 #: src/widgets/window.rs:69
 msgid "Learn about the key features in {name} {version}."
-msgstr "{name} {version} の主な機能について学びましょう。"
+msgstr "{name} {version} の主要機能について学びましょう。"
 
 #~ msgid "Main Window"
 #~ msgstr "メインウィンドウ"
@@ -201,9 +170,6 @@ msgstr "{name} {version} の主な機能について学びましょう。"
 
 #~ msgid "That's it. Have a nice day!"
 #~ msgstr "以上です。良い一日を!"
-
-#~ msgid "To get more advice and tips, see the Help app."
-#~ msgstr "より詳しいアドバイスやヒントはヘルプアプリを参照してください。"
 
 #~ msgid "Welcome to {} {}"
 #~ msgstr "{} {} へようこそ"
@@ -270,6 +236,9 @@ msgstr "{name} {version} の主な機能について学びましょう。"
 
 #~ msgid "System Menu"
 #~ msgstr "システムメニュー"
+
+#~ msgid "Software"
+#~ msgstr "ソフトウェア"
 
 #~ msgid "Tour Completed"
 #~ msgstr "ツアー終了"
