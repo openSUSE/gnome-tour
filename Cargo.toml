@@ -3,6 +3,10 @@ name = "gnome-tour"
 authors = ["Bilal Elmoussaoui <bil.elmoussaoui@gmail.com>"]
 edition = "2021"
 
+[[bin]]
+name = "gnome-tour-minimal"
+path = "src/minimal.rs"
+
 [dependencies]
 gtk = { package = "gtk4", version = "0.10", features = ["gnome_47"] }
 log = "0.4"

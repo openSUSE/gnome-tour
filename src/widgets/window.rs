@@ -98,4 +98,8 @@ impl Window {
     pub fn reset_tour(&self) {
         self.imp().paginator.set_page(0);
     }
+
+    pub fn only_page(&self, page: u32) {
+        self.imp().paginator.only_page(page);
+    }
 }

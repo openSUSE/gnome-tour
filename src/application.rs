@@ -34,6 +34,11 @@ mod imp {
             }
 
             let window = Window::new(&application);
+            unsafe {
+                if let Some(_minimal) = application.data::<bool>("minimal") {
+                    window.only_page(6);
+                }
+            }
             application.add_window(&window);
             window.present();
             self.window.set(window.downgrade()).unwrap();

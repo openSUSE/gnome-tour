@@ -132,16 +132,18 @@ impl PaginatorWidget {
         let can_target_start = opacity_next < f64::EPSILON;
         let can_target_next = opacity_next > 0_f64 && position <= forelast_page;
 
-        imp.start_btn.set_opacity(opacity_start);
-        imp.start_btn.set_visible(opacity_start > 0_f64);
-        imp.start_btn.set_can_target(can_target_start);
+        if n_pages > 1 as f64 {
+            imp.start_btn.set_opacity(opacity_start);
+            imp.start_btn.set_visible(opacity_start > 0_f64);
+            imp.start_btn.set_can_target(can_target_start);
 
-        imp.next_btn.set_opacity(opacity_next);
-        imp.next_btn.set_visible(opacity_next > 0_f64);
-        imp.next_btn.set_can_target(can_target_next);
+            imp.next_btn.set_opacity(opacity_next);
+            imp.next_btn.set_visible(opacity_next > 0_f64);
+            imp.next_btn.set_can_target(can_target_next);
 
-        imp.previous_btn.set_opacity(opacity_previous);
-        imp.previous_btn.set_visible(opacity_previous > 0_f64);
+            imp.previous_btn.set_opacity(opacity_previous);
+            imp.previous_btn.set_visible(opacity_previous > 0_f64);
+        }
 
         imp.current_page.set(page_nr);
     }
@@ -171,5 +173,27 @@ impl PaginatorWidget {
             let page = pages.get(page_nr as usize).unwrap();
             imp.carousel.scroll_to(page, true);
         }
+    }
+
+    pub fn only_page(&self, page_nr: u32) {
+        let imp = self.imp();
+        let mut removed = 0;
+
+        loop {
+            if imp.carousel.n_pages() == 1 {
+                break;
+            }
+
+            if removed == page_nr {
+                continue;
+            }
+
+            let page = imp.carousel.nth_page(0);
+            imp.carousel.remove(&page);
+            removed += 1;
+        }
+        imp.next_btn.set_visible(false);
+        imp.previous_btn.set_visible(false);
+        imp.start_btn.set_visible(false);
     }
 }

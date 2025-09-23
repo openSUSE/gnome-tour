@@ -52,3 +52,22 @@ custom_target(
   ]
 )
 
+custom_target(
+  'cargo-build-minimal',
+  build_by_default: true,
+  build_always_stale: true,
+  output: meson.project_name() + '-minimal',
+  console: true,
+  install: true,
+  install_dir: bindir,
+  depends: resources,
+  command: [
+    'env',
+    cargo_env,
+    cargo, 'build',
+    cargo_options,
+    '&&',
+    'cp', 'src' / rust_target / meson.project_name() + '-minimal', '@OUTPUT@',
+  ]
+)
+
