@@ -2,7 +2,7 @@
 Name=Tour
 GenericName=Greeter & Tour
 Type=Application
-Exec=gnome-tour
+Exec=gnome-tour@suffix@
 Terminal=false
 Categories=GNOME;GTK;Documentation;Utility;
 Keywords=Gnome;GTK;

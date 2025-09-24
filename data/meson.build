@@ -53,6 +53,35 @@ if desktop_file_validate.found()
   )
 endif
 
+# Desktop file minimal
+desktop_conf = configuration_data()
+desktop_conf.set('icon', application_id)
+desktop_conf.set('suffix', '-minimal')
+desktop_file_minimal = i18n.merge_file (
+  type: 'desktop',
+  input: configure_file(
+    input: '@0@.desktop.in.in'.format(base_id),
+    output: '@BASENAME@-minimal',
+    configuration: desktop_conf
+  ),
+  output: '@0@.desktop'.format(application_id + 'Minimal'),
+  po_dir: podir,
+  install: true,
+  install_dir: datadir / 'applications'
+)
+
+# Validate Desktop file
+if desktop_file_validate.found()
+  test(
+    'validate-desktop',
+    desktop_file_validate,
+    args: [
+      desktop_file.full_path(),
+      desktop_file_minimal.full_path()
+    ]
+  )
+endif
+
 # Resources
 resources = gnome.compile_resources(
   'resources',
@@ -70,6 +99,18 @@ service_conf.set('bindir', bindir)
 configure_file(
   input: '@0@.service.in'.format(base_id),
   output: '@0@.service'.format(application_id),
+  configuration: service_conf,
+  install_dir: datadir / 'dbus-1' / 'services'
+)
+
+# D-Bus service minimal
+service_conf = configuration_data()
+service_conf.set('app-id', application_id + 'Minimal')
+service_conf.set('bindir', bindir)
+service_conf.set('suffix', '-minimal')
+configure_file(
+  input: '@0@.service.in'.format(base_id),
+  output: '@0@.service'.format(application_id + 'Minimal'),
   configuration: service_conf,
   install_dir: datadir / 'dbus-1' / 'services'
 )
