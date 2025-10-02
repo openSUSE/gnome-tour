@@ -30,6 +30,7 @@ endif
 # Desktop file
 desktop_conf = configuration_data()
 desktop_conf.set('icon', application_id)
+desktop_conf.set('exec', 'gnome-tour')
 desktop_file = i18n.merge_file (
   type: 'desktop',
   input: configure_file(
@@ -53,18 +54,18 @@ if desktop_file_validate.found()
   )
 endif
 
-# Desktop file minimal
+# Desktop file opensuse
 desktop_conf = configuration_data()
 desktop_conf.set('icon', application_id)
-desktop_conf.set('suffix', '-minimal')
-desktop_file_minimal = i18n.merge_file (
+desktop_conf.set('exec', 'opensuse-welcome')
+desktop_file_opensuse = i18n.merge_file (
   type: 'desktop',
   input: configure_file(
     input: '@0@.desktop.in.in'.format(base_id),
-    output: '@BASENAME@-minimal',
+    output: 'org.opensuse.Welcome.desktop.in',
     configuration: desktop_conf
   ),
-  output: '@0@.desktop'.format(application_id + 'Minimal'),
+  output: '@0@.desktop'.format('org.opensuse.Welcome'),
   po_dir: podir,
   install: true,
   install_dir: datadir / 'applications'
@@ -77,7 +78,7 @@ if desktop_file_validate.found()
     desktop_file_validate,
     args: [
       desktop_file.full_path(),
-      desktop_file_minimal.full_path()
+      desktop_file_opensuse.full_path()
     ]
   )
 endif
@@ -96,6 +97,7 @@ resources = gnome.compile_resources(
 service_conf = configuration_data()
 service_conf.set('app-id', application_id)
 service_conf.set('bindir', bindir)
+service_conf.set('exec', 'gnome-tour')
 configure_file(
   input: '@0@.service.in'.format(base_id),
   output: '@0@.service'.format(application_id),
@@ -103,14 +105,14 @@ configure_file(
   install_dir: datadir / 'dbus-1' / 'services'
 )
 
-# D-Bus service minimal
+# D-Bus service opensuse
 service_conf = configuration_data()
-service_conf.set('app-id', application_id + 'Minimal')
+service_conf.set('app-id', 'org.opensuse.Welcome')
 service_conf.set('bindir', bindir)
-service_conf.set('suffix', '-minimal')
+service_conf.set('exec', 'opensuse-welcome')
 configure_file(
   input: '@0@.service.in'.format(base_id),
-  output: '@0@.service'.format(application_id + 'Minimal'),
+  output: '@0@.service'.format('org.opensuse.Welcome'),
   configuration: service_conf,
   install_dir: datadir / 'dbus-1' / 'services'
 )
