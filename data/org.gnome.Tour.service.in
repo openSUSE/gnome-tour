@@ -1,3 +1,3 @@
 [D-BUS Service]
 Name=@app-id@
-Exec=@bindir@/gnome-tour@suffix@ --gapplication-service
+Exec=@bindir@/@exec@ --gapplication-service

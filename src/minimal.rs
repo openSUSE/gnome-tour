@@ -33,5 +33,6 @@ fn main() -> glib::ExitCode {
     unsafe {
         app.set_data("minimal", true);
     }
+    app.set_application_id(Some("org.opensuse.Welcome"));
     app.run()
 }

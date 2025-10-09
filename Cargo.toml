@@ -4,7 +4,7 @@ authors = ["Bilal Elmoussaoui <bil.elmoussaoui@gmail.com>"]
 edition = "2021"
 
 [[bin]]
-name = "gnome-tour-minimal"
+name = "opensuse-welcome"
 path = "src/minimal.rs"
 
 [dependencies]

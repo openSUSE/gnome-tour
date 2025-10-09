@@ -53,10 +53,10 @@ custom_target(
 )
 
 custom_target(
-  'cargo-build-minimal',
+  'cargo-build-opensuse',
   build_by_default: true,
   build_always_stale: true,
-  output: meson.project_name() + '-minimal',
+  output: 'opensuse-welcome',
   console: true,
   install: true,
   install_dir: bindir,
@@ -67,7 +67,7 @@ custom_target(
     cargo, 'build',
     cargo_options,
     '&&',
-    'cp', 'src' / rust_target / meson.project_name() + '-minimal', '@OUTPUT@',
+    'cp', 'src' / rust_target / 'opensuse-welcome', '@OUTPUT@',
   ]
 )
 
