@@ -73,3 +73,15 @@
   background-color: var(--accent-purple);
   color: white;
 }
+
+.support-logo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid var(--border-color);
+}
+
+.support-logo:hover {
+  border: 4px solid var(--border-color);
+  padding: 8px;
+}

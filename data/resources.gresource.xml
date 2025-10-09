@@ -7,6 +7,8 @@
     <file compressed="true" preprocess="xml-stripblanks" alias="ui/window.ui">resources/ui/window.ui</file>
     <file compressed="true" alias="welcome.svg">resources/assets/welcome.svg</file>
     <file compressed="true" alias="sinking.svg">resources/assets/sinking.svg</file>
+    <file compressed="true" alias="GNOME.svg">resources/assets/GNOME.svg</file>
+    <file compressed="true" alias="geeko.svg">resources/assets/geeko.svg</file>
     <file compressed="true" alias="overview.svg">resources/assets/overview.svg</file>
     <file compressed="true" alias="search.svg">resources/assets/search.svg</file>
     <file compressed="true" alias="blank.svg">resources/assets/blank.svg</file>

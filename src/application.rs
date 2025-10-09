@@ -36,7 +36,7 @@ mod imp {
             let window = Window::new(&application);
             unsafe {
                 if let Some(_minimal) = application.data::<bool>("minimal") {
-                    window.only_page(6);
+                    window.only_page(7);
                 }
             }
             application.add_window(&window);

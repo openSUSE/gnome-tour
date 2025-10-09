@@ -46,6 +46,149 @@
             <property name="body" translatable="yes">To move between workspaces, swipe three fingers horizontally.</property>
           </object>
         </child>
+
+        <!-- custom donation page -->
+        <child>
+          <object class="AdwClamp">
+            <property name="maximum-size">900</property>
+            <child>
+              <object class="GtkBox" id="support">
+                <property name="orientation">vertical</property>
+                <property name="spacing">12</property>
+                <property name="valign">center</property>
+                <property name="halign">center</property>
+                <property name="vexpand">true</property>
+                <property name="margin-bottom">48</property>
+                <property name="margin-top">12</property>
+                <property name="margin-start">12</property>
+                <property name="margin-end">12</property>
+                <!-- Header text -->
+                <child>
+                  <object class="GtkLabel" id="support-head">
+                    <property name="label" translatable="yes">Support open source</property>
+                    <property name="valign">center</property>
+                    <property name="justify">center</property>
+                    <property name="margin-top">36</property>
+                    <style>
+                      <class name="title-1" />
+                    </style>
+                  </object>
+                </child>
+                <!-- Body text -->
+                <child>
+                  <object class="GtkLabel">
+                    <property name="use-markup">true</property>
+                    <property name="label" translatable="yes">Support the projects that make this desktop possible to you</property>
+                    <property name="lines">2</property>
+                    <property name="wrap">true</property>
+                    <property name="valign">center</property>
+                    <property name="justify">center</property>
+                    <property name="margin-top">12</property>
+                    <style>
+                      <class name="body" />
+                    </style>
+                  </object>
+                </child>
+                <!-- Buttons -->
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">horizontal</property>
+                    <property name="spacing">12</property>
+                    <property name="valign">center</property>
+                    <property name="halign">center</property>
+                    <property name="vexpand">true</property>
+                    <property name="margin-bottom">48</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <child>
+                      <!-- Support GNOME -->
+                      <object class="GtkBox" id="gnome">
+                        <property name="orientation">vertical</property>
+                        <property name="spacing">12</property>
+                        <property name="valign">center</property>
+                        <property name="halign">center</property>
+                        <property name="vexpand">true</property>
+                        <property name="margin-bottom">48</property>
+                        <property name="margin-top">12</property>
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="support-button"/></style>
+                            <property name="uri">https://donate.gnome.org/</property>
+                            <property name="child">
+                              <object class="GtkBox">
+                                <property name="orientation">vertical</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <style><class name="support-logo"/></style>
+                                    <property name="resource">/org/gnome/Tour/GNOME.svg</property>
+                                    <property name="width-request">300</property>
+                                    <property name="pixel-size">300</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label" translatable="yes">Support GNOME</property>
+                                    <style><class name="title-1" /></style>
+                                  </object>
+                                </child>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <!-- Support Geeko -->
+                      <object class="GtkBox" id="geeko">
+                        <property name="orientation">vertical</property>
+                        <property name="spacing">12</property>
+                        <property name="valign">center</property>
+                        <property name="halign">center</property>
+                        <property name="vexpand">true</property>
+                        <property name="margin-bottom">48</property>
+                        <property name="margin-top">12</property>
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <child>
+                          <object class="GtkLinkButton">
+                            <style><class name="support-button"/></style>
+                            <property name="uri">https://geekos.org/sponsorship/</property>
+                            <property name="child">
+                              <object class="GtkBox">
+                                <property name="orientation">vertical</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <style><class name="support-logo"/></style>
+                                    <property name="resource">/org/gnome/Tour/geeko.svg</property>
+                                    <property name="width-request">300</property>
+                                    <property name="pixel-size">300</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label" translatable="yes">Support Geeko</property>
+                                    <style><class name="title-1" /></style>
+                                  </object>
+                                </child>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <!-- endof donation page -->
+
         <!-- custom opensuse Layout with useful links -->
         <child>
           <object class="AdwClamp">
@@ -145,15 +288,15 @@
                       </object>
                     </child>
                     <child>
-                    <object class="GtkImage">
-                      <property name="resource">/org/gnome/Tour/sinking.svg</property>
-                      <property name="width-request">300</property>
-                      <property name="pixel-size">300</property>
-                    </object>
+                      <object class="GtkImage">
+                        <property name="resource">/org/gnome/Tour/sinking.svg</property>
+                        <property name="width-request">300</property>
+                        <property name="pixel-size">300</property>
+                      </object>
                     </child>
                     <child>
                       <!-- support links -->
-                      <object class="GtkBox" id="support">
+                      <object class="GtkBox" id="support-links">
                         <property name="orientation">vertical</property>
                         <property name="spacing">12</property>
                         <property name="valign">center</property>
