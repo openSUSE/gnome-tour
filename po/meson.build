@@ -5,3 +5,11 @@ i18n.gettext(
   ],
   preset: 'glib'
 )
+
+i18n.gettext(
+  'opensuse-welcome',
+  args: [
+    '--keyword=i18n_f'
+  ],
+  preset: 'glib'
+)
