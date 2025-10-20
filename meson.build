@@ -8,6 +8,7 @@ i18n = import('i18n')
 gnome = import('gnome')
 
 base_id = 'org.gnome.Tour'
+welcome_id = 'org.opensuse.Welcome'
 
 dependency('glib-2.0', version: '>= 2.64')
 dependency('gio-2.0', version: '>= 2.56')

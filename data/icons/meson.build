@@ -8,3 +8,15 @@ install_data(
   install_dir: iconsdir / 'hicolor' / 'symbolic' / 'apps',
   rename: '@0@-symbolic.svg'.format(application_id)
 )
+
+# opensuse-welcome icon
+install_data(
+  '@0@.svg'.format(welcome_id),
+  install_dir: iconsdir / 'hicolor' / 'scalable' / 'apps'
+)
+
+install_data(
+  '@0@-symbolic.svg'.format(welcome_id),
+  install_dir: iconsdir / 'hicolor' / 'symbolic' / 'apps',
+  rename: '@0@-symbolic.svg'.format(application_id)
+)

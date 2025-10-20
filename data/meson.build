@@ -31,6 +31,7 @@ endif
 desktop_conf = configuration_data()
 desktop_conf.set('icon', application_id)
 desktop_conf.set('exec', 'gnome-tour')
+desktop_conf.set('name', 'Tour')
 desktop_file = i18n.merge_file (
   type: 'desktop',
   input: configure_file(
@@ -56,16 +57,17 @@ endif
 
 # Desktop file opensuse
 desktop_conf = configuration_data()
-desktop_conf.set('icon', application_id)
+desktop_conf.set('icon', welcome_id)
 desktop_conf.set('exec', 'opensuse-welcome')
+desktop_conf.set('name', 'openSUSE Welcome')
 desktop_file_opensuse = i18n.merge_file (
   type: 'desktop',
   input: configure_file(
     input: '@0@.desktop.in.in'.format(base_id),
-    output: 'org.opensuse.Welcome.desktop.in',
+    output: '@0@.desktop.in'.format(welcome_id),
     configuration: desktop_conf
   ),
-  output: '@0@.desktop'.format('org.opensuse.Welcome'),
+  output: '@0@.desktop'.format(welcome_id),
   po_dir: podir,
   install: true,
   install_dir: datadir / 'applications'
@@ -107,12 +109,12 @@ configure_file(
 
 # D-Bus service opensuse
 service_conf = configuration_data()
-service_conf.set('app-id', 'org.opensuse.Welcome')
+service_conf.set('app-id', welcome_id)
 service_conf.set('bindir', bindir)
 service_conf.set('exec', 'opensuse-welcome')
 configure_file(
   input: '@0@.service.in'.format(base_id),
-  output: '@0@.service'.format('org.opensuse.Welcome'),
+  output: '@0@.service'.format(welcome_id),
   configuration: service_conf,
   install_dir: datadir / 'dbus-1' / 'services'
 )

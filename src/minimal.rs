@@ -24,7 +24,7 @@ fn main() -> glib::ExitCode {
     textdomain("opensuse-welcome")
         .unwrap_or_else(|_| panic!("Unable to switch to text domain opensuse-welcome"));
 
-    glib::set_application_name(&gettext("Tour"));
+    glib::set_application_name(&gettext("openSUSE Welcome"));
 
     let res = gio::Resource::load(config::RESOURCES_FILE).expect("Could not load resources");
     gio::resources_register(&res);
